@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: plum;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#head,h1{
+    background-color: black;
+    color: white;
+}
+
+.output{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 40px;
+    width: 400px;
+}
+
+.score{
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#i1:hover,#i2:hover,#i3:hover{
+    border: 2px solid red;
+}
+
+
+
+.win{
+    background-color: green;
+    color: white;
+}
+
+.loss{
+    background-color: red;
+    color: white;
+}
+
+.draw{
+    background-color: gray;
+    color: black;
+}
